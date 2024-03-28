@@ -67,14 +67,19 @@ div#header-container div#logo-icon img {
 div#app {
     position: absolute;
     background-color: white;
-    top: 100px;
+    top: 200px;
     width: 80%;
-    margin: 90px;
+    /* margin: 90px; */
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: 5%; */
+
 }
 
 
+/* Titre */
 div#app h1{
     font-size: 25px;
     color:#001e4d;
@@ -95,6 +100,8 @@ div#app h2{
     font-weight: 600;
 }
 
+
+/* Les options de réponses */
 div#app .btn{
    background: #fff;
    font-weight: 600;
@@ -122,7 +129,6 @@ div#app .btn:disabled{
 
 
 /* Bouton next  */
-
 div#app #next-btn{
     background: #001e4d;
     color: white;
@@ -138,7 +144,7 @@ div#app #next-btn{
 
 
 
-
+/* Affichage en vert ou en rouge en fonction de la réponse */
 div#app .correct {
     background: #3DF13A;
 }
