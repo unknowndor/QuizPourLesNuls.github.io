@@ -1,0 +1,201 @@
+[
+    {
+        "question": "Qu'est-ce que la normalisation des données ?",
+        "options": [
+            "Le processus de conversion des données en un format lisible par les machines",
+            "Une technique pour standardiser les données et éviter la redondance",
+            "Une méthode pour compresser les données et économiser de l'espace de stockage",
+            "Un algorithme pour classer les données en fonction de leur importance"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la différence entre une base de données SQL et une base de données NoSQL ?",
+        "options": [
+            "SQL est plus adapté aux données structurées tandis que NoSQL est plus flexible avec des données non structurées",
+            "SQL est plus rapide mais moins sécurisé que NoSQL",
+            "SQL utilise un langage de requête spécifique tandis que NoSQL utilise des langages de programmation courants",
+            "Il n'y a pas de différence significative entre SQL et NoSQL"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qu'est-ce qu'un data lake ?",
+        "options": [
+            "Une piscine remplie de données physiques pour un refroidissement efficace des serveurs",
+            "Un dépôt centralisé pour stocker toutes les données brutes sans structuration préalable",
+            "Un ensemble de données utilisé pour former des algorithmes d'apprentissage automatique",
+            "Un dispositif de stockage pour les données non structurées uniquement"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la fonction d'un moteur de traitement des données en temps réel ?",
+        "options": [
+            "Traiter les données à des intervalles réguliers selon un horodatage fixe",
+            "Analyser les données uniquement après leur stockage dans un entrepôt de données",
+            "Traiter les données immédiatement lors de leur réception pour une analyse en temps réel",
+            "Convertir les données dans un format standardisé pour la conformité réglementaire"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qu'est-ce qu'un data engineer ?",
+        "options": [
+            "Un spécialiste chargé de rédiger des rapports sur les données pour la direction",
+            "Un professionnel chargé de concevoir, construire et maintenir les infrastructures de données",
+            "Un analyste de données spécialisé dans l'interprétation des données qualitatives",
+            "Un développeur logiciel travaillant exclusivement sur des projets de données"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est l'utilité des techniques de nettoyage des données ?",
+        "options": [
+            "Améliorer la lisibilité des données pour les utilisateurs finaux",
+            "Éliminer les données inutiles pour économiser de l'espace de stockage",
+            "Supprimer les données erronées ou obsolètes pour garantir leur qualité",
+            "Compresser les données pour accélérer les temps de traitement"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qu'est-ce qu'un ETL en ingénierie des données ?",
+        "options": [
+            "Un outil pour extraire, transférer et localiser des données géographiques",
+            "Un processus pour évaluer la sécurité des données dans une entreprise",
+            "Une méthode pour crypter les données lors de leur transmission",
+            "Un processus pour extraire, transformer et charger des données entre différents systèmes"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quels sont les avantages du stockage des données dans le cloud ?",
+        "options": [
+            "Un accès plus lent aux données en raison de la latence du réseau",
+            "Une dépendance accrue envers les fournisseurs de services cloud",
+            "Une augmentation des coûts de stockage par rapport aux solutions sur site",
+            "Une évolutivité, une disponibilité et une flexibilité accrues"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la signification de l'acronyme 'ETL' ?",
+        "options": [
+            "Extraction, Transformation, Langage",
+            "Enregistrement, Test, Lancement",
+            "Extraction, Test, Localisation",
+            "Extraction, Transformation, Chargement"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qu'est-ce que la gouvernance des données ?",
+        "options": [
+            "Un processus pour évaluer la qualité des données",
+            "Une méthode pour centraliser toutes les données d'une entreprise",
+            "Un cadre pour garantir la disponibilité, la qualité, la sécurité et l'intégrité des données",
+            "Une stratégie pour cacher les données sensibles des utilisateurs non autorisés"
+        ],
+        "answer": 2
+    },    {
+        "question": "Qu'est-ce qu'une base de données NoSQL ?",
+        "options": [
+            "Une base de données qui utilise uniquement des requêtes SQL",
+            "Une base de données qui stocke des données non relationnelles ou semi-structurées",
+            "Une base de données utilisée uniquement pour les requêtes OLAP",
+            "Une base de données qui stocke des données uniquement en format XML"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est l'importance de la normalisation dans les bases de données relationnelles ?",
+        "options": [
+            "La normalisation réduit la redondance des données et améliore l'intégrité des données",
+            "La normalisation rend les données plus difficiles à interroger",
+            "La normalisation rend les bases de données plus lentes",
+            "La normalisation n'a aucune importance dans les bases de données"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qu'est-ce que la transformation de données dans le contexte du Big Data ?",
+        "options": [
+            "La conversion de données numériques en données alphabétiques",
+            "Le processus de nettoyage, de filtrage et de structuration des données brutes",
+            "Le processus de stockage des données dans une base de données",
+            "Le processus de collecte de données à partir de diverses sources"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le rôle d'un ingénieur en données dans une organisation ?",
+        "options": [
+            "Analyser les données uniquement",
+            "Collecter les données uniquement",
+            "Concevoir, développer et gérer les infrastructures de données",
+            "Ne pas participer à la gestion des données"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la différence entre la classification et la régression dans l'apprentissage automatique ?",
+        "options": [
+            "La classification prédit des variables continues tandis que la régression prédit des catégories",
+            "La classification prédit des catégories tandis que la régression prédit des variables continues",
+            "Il n'y a pas de différence entre la classification et la régression",
+            "La classification et la régression sont des termes interchangeables"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qu'est-ce qu'un modèle de données en étoile (star schema) ?",
+        "options": [
+            "Un modèle de données qui ressemble à une étoile lorsqu'il est visualisé",
+            "Un modèle de données avec une seule table centrale et plusieurs tables dimensionnelles",
+            "Un modèle de données avec plusieurs tables centrales",
+            "Un modèle de données utilisé uniquement pour les données spatiales"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qu'est-ce que la compression de données ?",
+        "options": [
+            "La conversion de données en un format non compressé",
+            "Le processus de stockage de données dans une base de données",
+            "Le processus de réduction de la taille des données",
+            "Le processus de collecte de données à partir de diverses sources"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qu'est-ce qu'un algorithme d'apprentissage supervisé ?",
+        "options": [
+            "Un algorithme qui n'a pas besoin de supervision",
+            "Un algorithme qui apprend à partir d'exemples étiquetés",
+            "Un algorithme qui ne peut pas être utilisé pour la classification",
+            "Un algorithme qui apprend sans données d'entraînement"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qu'est-ce que l'analyse exploratoire des données (EDA) ?",
+        "options": [
+            "Un processus pour rendre les données illisibles",
+            "Un processus pour explorer et analyser les données pour découvrir des modèles et des tendances",
+            "Un processus pour supprimer les données inutiles",
+            "Un processus pour créer des données synthétiques"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la différence entre le data mining et l'apprentissage automatique ?",
+        "options": [
+            "Il n'y a pas de différence entre le data mining et l'apprentissage automatique",
+            "Le data mining est un sous-ensemble de l'apprentissage automatique",
+            "L'apprentissage automatique est un sous-ensemble du data mining",
+            "Le data mining concerne uniquement la collecte de données"
+        ],
+        "answer": 1
+    }
+]

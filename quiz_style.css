@@ -1,0 +1,148 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #DDDDDD;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+div#header-container{
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100px; 
+    background-color: white; 
+}
+
+
+
+
+/* Barre de navigation */
+div#header-container div#navigation-bar nav ul{
+    list-style: none;
+    padding: 40px;
+    font-size: medium;
+    margin-left: 40px;
+
+}
+
+div#header-container div#navigation-bar nav ul li{
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+/* Ajouter une couleur lorsque le curseur est sur le lien  */
+div#header-container div#navigation-bar nav ul li a:hover { 
+    color: grey;
+  } 
+
+div#header-container div#navigation-bar nav ul li a {
+    text-decoration: none; /* enlever la ligne en bas du lien */
+    color: black;
+    font-family: inherit;
+}
+
+
+
+/*  LOGO   */
+div#header-container div#logo-icon {
+    position: absolute;
+    top: 0;
+    margin-left: 45%;
+}
+
+
+
+div#header-container div#logo-icon img {
+    width: 170px;
+    height: 100px;
+}
+
+
+
+/* Partie QUIZ */
+div#app {
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    width: 80%;
+    margin: 90px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+div#app h1{
+    font-size: 25px;
+    color:#001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+}
+
+
+div#app #quizz{
+    padding: 5px 0;
+}
+
+
+div#app h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+div#app .btn{
+   background: #fff;
+   font-weight: 600;
+   width: 100%;
+   border: 1px solid;
+   padding: 10px;
+   margin: 5px 0;
+   text-align: left;
+   border-radius: 10px;
+   cursor: pointer; 
+   transition: all 0.3s;
+}
+
+
+div#app .btn:hover:not([disabled]){
+    color: white;
+    background: black
+ }
+
+ 
+div#app .btn:disabled{
+    cursor: no-drop;
+ }
+
+
+
+/* Bouton next  */
+
+div#app #next-btn{
+    background: #001e4d;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+div#app .correct {
+    background: #3DF13A;
+}
+
+div#app .incorrect {
+    background: #F13A3A;
+}
