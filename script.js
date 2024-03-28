@@ -1,5 +1,5 @@
-fetch('./questions.json')
-  .then(response => response.json()) // Lire le fichier JSON
+fetch('./questions.json') // Lire le fichier JSON
+  .then(response => response.json()) 
   .then(data => {
     const questions = data;
     
@@ -83,7 +83,7 @@ fetch('./questions.json')
         nextButton.style.display = "block";
     }
 
-
+    // vérifier si il y'a encore des questions ou pas afin d'afficher la prochaine question ou le score si cétait la dernière question
     function handleNextButton(){
         currentQuestionIndex++;
         if(currentQuestionIndex < questions.length){
@@ -93,7 +93,7 @@ fetch('./questions.json')
         }
     }
 
-
+    // gestion du click du bouton next lorsquil s'affiche
     nextButton.addEventListener("click", () =>{
         if(currentQuestionIndex <  questions.length){
             handleNextButton();
