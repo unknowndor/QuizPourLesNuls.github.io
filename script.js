@@ -101,6 +101,6 @@ fetch('./questions.json')
             startQuiz();
         }
     })
-    // startQuiz();
+    startQuiz();
   })
   .catch(error => console.error('Error reading the JSON file:', error));
